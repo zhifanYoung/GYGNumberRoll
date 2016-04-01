@@ -15,6 +15,8 @@
 		6F13712E1CAE5DD60015A7DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F13712C1CAE5DD60015A7DA /* LaunchScreen.storyboard */; };
 		6F1371391CAE5DD70015A7DA /* GYGNumberRollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1371381CAE5DD70015A7DA /* GYGNumberRollTests.m */; };
 		6F1371441CAE5DD70015A7DA /* GYGNumberRollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1371431CAE5DD70015A7DA /* GYGNumberRollUITests.m */; };
+		6F1371561CAE5DE70015A7DA /* ZFBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1371531CAE5DE70015A7DA /* ZFBezierCurve.m */; };
+		6F1371571CAE5DE70015A7DA /* ZFNumberRollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1371551CAE5DE70015A7DA /* ZFNumberRollLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		6F13713F1CAE5DD70015A7DA /* GYGNumberRollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GYGNumberRollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F1371431CAE5DD70015A7DA /* GYGNumberRollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GYGNumberRollUITests.m; sourceTree = "<group>"; };
 		6F1371451CAE5DD70015A7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F1371521CAE5DE70015A7DA /* ZFBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBezierCurve.h; sourceTree = "<group>"; };
+		6F1371531CAE5DE70015A7DA /* ZFBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBezierCurve.m; sourceTree = "<group>"; };
+		6F1371541CAE5DE70015A7DA /* ZFNumberRollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFNumberRollLabel.h; sourceTree = "<group>"; };
+		6F1371551CAE5DE70015A7DA /* ZFNumberRollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFNumberRollLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		6F13711D1CAE5DD60015A7DA /* GYGNumberRoll */ = {
 			isa = PBXGroup;
 			children = (
+				6F1371511CAE5DE70015A7DA /* ZFNumberRoll */,
 				6F1371211CAE5DD60015A7DA /* AppDelegate.h */,
 				6F1371221CAE5DD60015A7DA /* AppDelegate.m */,
 				6F1371241CAE5DD60015A7DA /* ViewController.h */,
@@ -138,6 +145,17 @@
 				6F1371451CAE5DD70015A7DA /* Info.plist */,
 			);
 			path = GYGNumberRollUITests;
+			sourceTree = "<group>";
+		};
+		6F1371511CAE5DE70015A7DA /* ZFNumberRoll */ = {
+			isa = PBXGroup;
+			children = (
+				6F1371521CAE5DE70015A7DA /* ZFBezierCurve.h */,
+				6F1371531CAE5DE70015A7DA /* ZFBezierCurve.m */,
+				6F1371541CAE5DE70015A7DA /* ZFNumberRollLabel.h */,
+				6F1371551CAE5DE70015A7DA /* ZFNumberRollLabel.m */,
+			);
+			path = ZFNumberRoll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F1371561CAE5DE70015A7DA /* ZFBezierCurve.m in Sources */,
 				6F1371261CAE5DD60015A7DA /* ViewController.m in Sources */,
+				6F1371571CAE5DE70015A7DA /* ZFNumberRollLabel.m in Sources */,
 				6F1371231CAE5DD60015A7DA /* AppDelegate.m in Sources */,
 				6F1371201CAE5DD60015A7DA /* main.m in Sources */,
 			);
